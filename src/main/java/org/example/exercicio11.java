@@ -25,7 +25,7 @@ public class exercicio11 {
 
         } else if (calculo <= 5) {
             System.out.println("Reprovado");
-//kj
+
         }
     }
 }
