@@ -1,17 +1,40 @@
 package org.example;
-
+import java.util.Scanner;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
+        System.out.println("Digite a idade da pessoa: ");
+        int idade = sc.nextInt();
+
+
+
+
+        String vot = "Pode votar";
+        String dir = "Pode dirigir";
+        String id = "Voce é idoso";
+        String id2 = "Voce é velho";
+        String id3 = "Voce esta capenga ja";
+
+        if (idade <= 16) {
+            System.out.println(vot);
+
         }
+        else if(idade <= 18) {
+            System.out.println(dir);
+        }
+        else if (idade <= 60) {
+            System.out.println(id);
+
+        }
+        else if (idade >= 65) {
+            System.out.println(id);
+            System.out.println(id2);
+            System.out.println(id3);
+        }
+
+
     }
 }
