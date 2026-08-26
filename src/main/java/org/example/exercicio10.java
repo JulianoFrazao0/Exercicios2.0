@@ -15,7 +15,6 @@ public class exercicio10 {
             if (!usuario.equals("admin")) {
                 System.out.println("Usuário não encontrado.");
             } else {
-                // Segundo nível (If aninhado): O usuário é admin. A senha está certa?
                 if (senha.equals("java123")) {
                     System.out.println("Acesso liberado.");
                 } else {
