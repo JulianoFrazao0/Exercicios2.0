@@ -15,11 +15,11 @@ public class exercicio9 {
         if (tempoCasa < 1) {
             percentual = 0.0;
         } else if (tempoCasa <= 3) {
-            percentual = 0.05; 
+            percentual = 0.05;
         } else if (tempoCasa <= 10) {
-            percentual = 0.10; 
+            percentual = 0.10;
         } else {
-            percentual = 0.15; 
+            percentual = 0.15;
         }
 
         double bonus = salario * percentual;
