@@ -4,7 +4,7 @@ public class Main {
     static void main() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite a idade da pessoa: ");
+        System.out.println("Digite a idadee da pessoa: ");
         int idade = sc.nextInt();
 
 
