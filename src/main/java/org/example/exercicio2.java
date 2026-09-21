@@ -10,22 +10,16 @@ public class exercicio2 {
 
 
         if (num > 0) {
-            System.out.println("O numero é positivo!");
+            System.out.println("O numero e positivo");
         }
 
         if (num % 2 == 0) {
-            System.out.println("O numero é par!");
+            System.out.println("O numero e par");
         }
 
         if (num % 5 == 0) {
-            System.out.println("O numero é multipo de 5!");
+            System.out.println("O numero e multipo de 5");
         }
 
-        int modulo = Math.abs(num);
-        if (modulo >= 10 && modulo <= 99) {
-            System.out.println("Tem dois dígitos");
-        }
-
-        sc.close();
     }
 }

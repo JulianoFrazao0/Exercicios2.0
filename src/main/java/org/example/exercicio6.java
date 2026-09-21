@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class exercicio6 {
     public void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite o valor da compra: R$ ");
+        System.out.print("digite o valor da compra: R$ ");
         double valorCompra = sc.nextDouble();
 
         double frete;
@@ -16,7 +16,7 @@ public class exercicio6 {
         }
 
         double total = valorCompra + frete;
-        System.out.println("Valor do frete: R$ " + frete);
-        System.out.println("Total a pagar: R$ " + total);
+        System.out.println("valor do frete: R$ " + frete);
+        System.out.println("total a pagar: R$ " + total);
     }
 }

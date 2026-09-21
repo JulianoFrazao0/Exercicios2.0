@@ -18,7 +18,7 @@ public class exercicio11 {
         System.out.println("Digite a frequncia do aluno: ");
         double frequencia = sc.nextDouble();
 
-        double calculo = nota1 + nota2 +nota3 + nota4 / 4;
+        double calculo = (nota1 + nota2 + nota3 + nota4) / 4;
 
         if (calculo <= 7) {
             System.out.println("Aprovado");

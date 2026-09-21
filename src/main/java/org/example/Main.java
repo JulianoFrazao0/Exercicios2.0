@@ -7,9 +7,6 @@ public class Main {
         System.out.println("Digite a idadee da pessoa: ");
         int idade = sc.nextInt();
 
-
-
-
         String vot = "Pode votar";
         String dir = "Pode dirigir";
         String id = "Voce é idoso";

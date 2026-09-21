@@ -12,15 +12,15 @@ public class exercicio3 {
         double umidade = sc.nextDouble();
 
         if (temp >= 38) {
-            System.out.println("Alerta: Calor extremo!");
+            System.out.println("Alerta: muito calor");
         }
 
         if (umidade < 30) {
-            System.out.println("Alerta: Umidade baixa!");
+            System.out.println("Alerta umidade baixa");
         }
 
         if (temp >= 35 && umidade < 20) {
-            System.out.println("Alerta: Risco de queimada!");
+            System.out.println("Alerta: quimada");
         }
     }
 }
