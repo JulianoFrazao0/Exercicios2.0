@@ -1,4 +1,5 @@
 package org.example;
+
 import java.util.Scanner;
 
 public class atividade15 {
@@ -28,13 +29,13 @@ public class atividade15 {
 
         double valorTotal = horas * tarifa;
 
-        System.out.print("tem cupom de desconto (sim/nao)? ");
-        String cupom = sc.next();
+        System.out.print("tem cupom de desconto (1 - sim, 2 - nao)? ");
+        int cupom = sc.nextInt();
 
-        if (cupom.equals("sim") || cupom.equals("SIM")) {
+        if (cupom == 1) {
             if (valorTotal >= 50.00) {
-                valorTotal = valorTotal * 0.80; // Desconto de 20%
-                System.out.println("desconto de 20% aplicado com sucesso!");
+                valorTotal = valorTotal * 0.80;
+                System.out.println("desconto de 20% aplicado com sucesso");
             } else {
                 System.out.println("O cupom e valido apenas para valores a partir de 50,00.");
             }
@@ -48,14 +49,15 @@ public class atividade15 {
         }
 
         if (horas <= 2) {
-            System.out.println("permanencia: curta");
+            System.out.println("curta");
         } else if (horas <= 6) {
-            System.out.println("permanencia: media");
+            System.out.println(" media");
         } else {
-            System.out.println("permanencia: longa");
+            System.out.println("longa");
         }
 
         System.out.println("Valor final a pagar: " + valorTotal);
 
+        sc.close();
     }
 }
