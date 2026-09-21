@@ -18,7 +18,7 @@ public class atividade15 {
                 tarifa = 5.00;
                 break;
             default:
-                System.out.println("Opcao invalida");
+                System.out.println("opcao invalida");
                 sc.close();
                 return;
         }
