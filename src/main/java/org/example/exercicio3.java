@@ -1,8 +1,9 @@
 package org.example;
+
 import java.util.Scanner;
 
 public class exercicio3 {
-    public void main (String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite a temperatura (em graus Celsius): ");
@@ -16,11 +17,11 @@ public class exercicio3 {
         }
 
         if (umidade < 30) {
-            System.out.println("Alerta umidade baixa");
+            System.out.println("Alerta: umidade baixa");
         }
 
         if (temp >= 35 && umidade < 20) {
-            System.out.println("Alerta: quimada");
+            System.out.println("Alerta: queimada");
         }
     }
 }
